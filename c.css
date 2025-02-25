@@ -1,0 +1,78 @@
+/* Centering fieldset on the page */
+fieldset {
+    display: flex;
+
+    align-items: center; /* Centers content inside fieldset */
+    justify-content: center;
+    border: 2px solid black;
+    width: 40%;
+    margin: 50px auto; /* Centers the fieldset itself */
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Centering input and button inside the title div */
+.title {
+    width: 100%;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center horizontally */
+    gap: 10px; /* Adds space between input and button */
+    margin: 20px auto; /* Centers the .title div */
+}
+body{
+    background-color: lightgray;
+}
+ul{
+    text-align: left;
+    margin:0;
+    padding:0;
+}
+li{
+
+  margin:0;
+    padding:5px;
+        text-align: left;
+
+}
+
+.container {
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+}
+
+.c,.d{
+    float: right;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+input[type="text"] {
+  width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+button{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#but:hover{
+    background-color: Blue;
+}
+.d:hover{
+    background-color: Green;
+
+}
+.c:hover{
+    background-color: Red;
+}
